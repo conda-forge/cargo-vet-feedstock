@@ -1,5 +1,5 @@
 context:
-  version: "0.10.2"
+  version: "0.10.3"
 
 package:
   name: cargo-vet
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mozilla/cargo-vet/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c4f33e2a57018022fe1d7833e8e4fa6542813046ab38e0967990bb183f07f603
+  sha256: 035542aa633e3c0fad51a82f5cff49aa673aa03b0ff87eedf499462462feff4b
 
 build:
   number: 0
